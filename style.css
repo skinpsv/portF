@@ -1,0 +1,54 @@
+ h1 {
+ 	color: orange;
+ 	background-color: black;
+}
+  body {
+      position: relative; 
+  }
+  #section1 {
+  	padding-top:50px;
+  	height:500px;
+  	color: #fff; 
+  	background-color: #3ad1ff;
+  }
+  #section2 {
+  	padding-top:50px;
+  	height:500px;
+  	color: #fff;
+  	background-color: #673ab7;
+  }
+  #section3 {
+  	padding-top:50px;
+  	height:500px;
+  	color: #fff; 
+  	background-color: #ff9800;
+  }
+  #section4 {
+  	padding-top:50px;
+  	height:500px;
+  	color: #fff; 
+  	background-color: #00bcd4;
+  }
+.navbar-default {
+	background-color: rgba(13, 48, 51, 0.5);
+	border: none;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+#myNavbar {
+	padding-right: 250px;
+}
+@media screen and (max-width: 850px){
+    #myNavbar {
+        padding-right: 15px;
+    }
+   }
+   .navbar .a{
+   	font-family: Open Sans !important;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5667px;
+   }
