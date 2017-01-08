@@ -1,48 +1,50 @@
- h1 {
- 	color: orange;
- 	background-color: black;
-}
+
   body {
       position: relative; 
-  }
+  	}
   #section1 {
   	padding-top:60px;
-  	height:700px;
+  	height:670px;
   	color: #fff; 
   	background-color: #3ad1ff;
   	width: auto;
-  }
+  	background-image: url('images/back.jpg'); 
+  	background-size: auto;
+  	}
   #section2 {
   	padding-top:60px;
   	height:500px;
   	color: #fff;
-  	background-color: #673ab7;
-  }
+  	border-top: 3px;
+  	border-style: solid;
+  	border-color: black;
+background-color: #eeedee;
+  	}
   #section3 {
   	padding-top:60px;
   	height:500px;
   	color: #fff; 
   	background-color: #ff9800;
-  }
+  	}
   #section4 {
   	padding-top:60px;
   	height:500px;
   	color: #fff; 
   	background-color: #00bcd4;
-  }
+ 	}
 .navbar-default {
 	background-color: rgba(13, 48, 51, 0.5);
 	border: none;
-}
+	}
 .navbar-default .navbar-nav > li > a {
 	color: #fff;
 	font-size: 10px;
 	
-}
+	}
 .navbar-default {
 	padding-top: 5px;
 	padding-bottom: 5px;
-}
+	}
 #myNavbar {
 	font-family: 'Open Sans', sans-serif;
 	letter-spacing: 0.4px;
@@ -53,12 +55,12 @@
         padding-right: 15px;
     }
    }
-   .banner {
-   	margin-right: 25%;
+.banner {
+   	/*margin-right: 25%;
    	margin-left: 25%;
-   	margin-top: 15%;
+   	margin-top: 15%;*/
    	text-align: center;
-   	display: block;
+   	/*display: block;*/
    	background-color: rgba(13, 48, 51, 0.5);
    	padding: 15px 10px 10px 10px;
    	border-width: 1px;
@@ -69,4 +71,15 @@
   font: 400 24px/1.5 'Pacifico', Helvetica, sans-serif;
   color: #fff;
   text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	}
+.portofoliu {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: underline;
+
+}
+.fade {
+/*	opacity: 0.8*/
+	background-color: #3c6e71;
 }
