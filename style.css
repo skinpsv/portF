@@ -30,15 +30,15 @@ background: linear-gradient(to left, #7474BF , #348AC7); /* W3C, IE 10+/ Edge, F
   	}
   #section3 {
   	padding-top:60px;
-  	height:500px;
+  	height:600px;
   	color: #fff; 
   	background-color: #ff9800;
   	}
   #section4 {
   	padding-top:60px;
-  	height:500px;
+  	height:120px;
   	color: #fff; 
-  	background-color: #00bcd4;
+  	background-color: #333333
  	}
 .navbar-default {
 	background-color: rgba(13, 48, 51, 0.5);
