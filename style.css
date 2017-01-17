@@ -99,9 +99,9 @@
 	padding-right: 0px;
 	padding-left: 0px;
 }
-.test {
+/*.test {
 	padding-right: 30px;
-}
+}*/
 
 #map {
     width: 100%;
@@ -130,4 +130,7 @@ html, body {
     bottom: 0px;
     left: 40%;
     border-bottom: 1px solid #3f3f3f;
+}
+.row > .h_underline:before {
+  color: white;
 }
