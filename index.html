@@ -9,8 +9,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="150">
 
@@ -41,16 +45,33 @@
 <!--  <div style="height: 100%; width: 100%; min-height: 100%;">-->
       <div class="lead banner bannerText center-block" style=""><p>Aspiring Full Stack Developer, with a mindset towards technologies like JavaScript, CSS and HTML frameworks</p>
   </div>
-  <div><img class="center-block" style="max-width: 50px; margin-top:30%" src="http://cliparts.co/cliparts/ziX/5yr/ziX5yr5kT.png" alt="scrool down arrow">
+  <div class="row" >
+      <div class="col-sm-offset-2 col-sm-4" style="padding-top:55px; margin-top:auto; margin-down:auto;"><p style="font-family:'Coda', cursive; text-align:right; font-size:20px; font-weight: 900; line-height: 24.5714px; text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);">I combine both creativity and imagination to render 100% user-friendly and interactive web applications and web solutions.
+<br>I offer expertise in the following areas of interest and domains:</p></div>
+      <div class="col-sm-5">
+          <img src="http://www.iconarchive.com/download/i60797/graphics-vibe/developer/html-5.ico"></img>
+       <img src="http://www.iconarchive.com/download/i60792/graphics-vibe/developer/css.ico"></img>
+    <img src="http://www.iconarchive.com/download/i60799/graphics-vibe/developer/javascript.ico"></img>
+    <img src="http://www.iconarchive.com/download/i60803/graphics-vibe/developer/php.ico"></img>
+      
+      </div>
+    
+    
+    
+    
+    </div>
+    
+    
+    <div><img class="center-block" style="max-width: 50px; margin-top:30%" src="http://cliparts.co/cliparts/ziX/5yr/ziX5yr5kT.png" alt="scrool down arrow">
 <!--  </div>-->
 </div>
     
 </div>
 <div id="section2" class="container-fluid">
 <div><h3 class="h_underline" style="text-align:center">Current works</h3>
-    <h4 style="text-align:center">A collection of finished and "in construction" projects.</h4>
+    <h4 style="text-align:center ">Explore my web development projects</h4>
     </div>
-    <div class="row test">
+    <div class="row test content">
        <!--  <div class="col-sm-offset-1 col-sm-2 ">
             
         </div> -->
@@ -79,11 +100,64 @@
 <div id="section3" class="container-fluid">
   <div><h3 class="h_underline" style="text-align:center">If you wish to find out more</h3>
     <h4 style="text-align:center">Please leave a word, everything is doable and everything is fixable</h4>
-    </div>
+<div class="row">
+    <div class="col-sm-offset-3 col-sm-6">
+      <form class="form" role="form" method="post" action="index.php">
+	<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">Name</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="email" class="col-sm-2 control-label">Email</label>
+		<div class="col-sm-10">
+			<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="message" class="col-sm-2 control-label">Message</label>
+		<div class="col-sm-10">
+			<textarea class="form-control" rows="4" name="message"></textarea>
+		</div>
+	</div>
+	<div class="form-group">
+		<label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+		<div class="col-sm-10">
+			<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-offset-2">
+			<! Will be used to display an alert to the user>
+		</div>
+         
+          </div>
+</form>      
+       </div></div>
+      
+      
+      
+      
+</div>
   
 </div>
 <div id="section4" class="container-fluid">
-  
+  <div class="row" style="display:inline;">
+      <div class="col-sm-offset-5 col-sm-3">
+  <i class="fa sm-icon fa-youtube fa-2x center-block" aria-hidden="true"></i>
+  <i class="fa sm-icon fa-facebook-official fa-2x" aria-hidden="true"></i>
+  <i class="fa sm-icon fa-twitter-square fa-2x" aria-hidden="true"></i>
+  <i class="fa sm-icon fa-codepen fa-2x" aria-hidden="true"></i>
+  <i class="fa sm-icon fa-github-square fa-2x" aria-hidden="true"></i>
+</div>
+
+</div>
 </div>
 </body>
 </html>
